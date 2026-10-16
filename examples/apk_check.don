@@ -1,0 +1,7 @@
+line apk_check
+pick file_name
+
+scan file_name ends ".apk"
+    good prt "apk file detected"
+    lost prt "not an apk file"
+seal

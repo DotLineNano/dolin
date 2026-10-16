@@ -1,0 +1,7 @@
+line hello
+pick name
+
+scan name is "dolin"
+    good prt "hello, core name detected"
+    lost prt "hello, unknown input"
+seal

@@ -1,0 +1,7 @@
+line email_check
+pick email
+
+scan email has "@"
+    good prt "valid email format"
+    lost prt "invalid email format"
+seal
